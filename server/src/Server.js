@@ -15,7 +15,11 @@ app.use(express.json());
 app.use("/run", runCodeRoute);
 
 app.use(cors({
-  origin: "http://localhost:5173", 
+  origin: [ 
+    "https://codexlive.vercel.app/",
+    "http://localhost:5173" 
+  ],
+
   methods: ["GET", "POST"],
 }));
 
