@@ -5,7 +5,7 @@ import { ACTIONS } from "../utils/actions";
 import { v4 as uuidv4 } from "uuid";
 import CodeEditor from "../components/CodeEditor";
 
-const SERVER_URL = import.meta.env.VITE_SERVER_URL || "http://localhost:5000";
+const SERVER_URL = "https://codexlive.onrender.com" || "http://localhost:5000";
 
 export default function EditorPage() {
   const navigate = useNavigate();

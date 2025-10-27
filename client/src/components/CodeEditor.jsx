@@ -33,7 +33,7 @@ export default function CodeEditor({
   const handleRunCode = async () => {
     setIsRunning(true);
     try {
-      const res = await fetch("http://localhost:5000/run", {
+      const res = await fetch("https://codexlive.onrender.com/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code, language, stdin }),
