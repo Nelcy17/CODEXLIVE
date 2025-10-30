@@ -1,3 +1,5 @@
+CodexLive — Real-time Code Collaborator
+
 CodexLive is a real-time collaborative code editor built using the MERN stack and Socket.io. It allows multiple users to write, edit, and run code together simultaneously.
 
 Features -
@@ -17,7 +19,7 @@ Features -
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
+|       | Technology |
 |-------|-------------|
 | **Frontend** | React.js, Tailwind CSS |
 | **Backend** | Node.js, Express.js |
