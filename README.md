@@ -27,7 +27,7 @@ Features -
 | **Realtime Engine** | Socket.io |
 | **Code Execution** | Judge0 API |
 | **Version Control** | Git & GitHub |
-| **Deployment** | Vercel + Render / Railway |
+| **Deployment** | Vercel + Render |
 
 ---
 
